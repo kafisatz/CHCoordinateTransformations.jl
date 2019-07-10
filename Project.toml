@@ -1,0 +1,6 @@
+authors = ["bernhard.konig "]
+name = "CHCoordinateTransformations"
+uuid = "6abb8e90-a318-11e9-1cf1-6fd67c17d9b7"
+version = "0.1.0"
+
+[deps]
