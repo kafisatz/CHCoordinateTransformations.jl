@@ -1,4 +1,5 @@
 
+using CHCoordinateTransformations 
 using Test
 
 @testset "ch_coordinates" begin

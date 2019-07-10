@@ -6,6 +6,15 @@ module CHCoordinateTransformations
 #see also https://www.swisstopo.admin.ch/de/karten-daten-online/calculation-services/navref.html 
 #http://geodesy.geo.admin.ch/reframe/lv95towgs84?easting=2600000&northing=1200000&altitude=550.0&format=json 
 
+export approxCHCoord 
+export LV03toETRS89 
+export latLong 
+export geoCentricCartesianCoordinates
+export geoCentricCartesianToEllipsoidCoordinates
+export approxLatLong
+export chCoord
+export compound
+
 function approxCHCoord(lat,long)
     phiPrime=(lat*3600-169028.66)/10000.0
     lambdaPrime=(long*3600-26782.5)/10000.0
